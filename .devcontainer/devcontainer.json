@@ -1,0 +1,8 @@
+{
+  "name": "Ubuntu 20.04 Codespace",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:0-focal",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y build-essential cmake git libpcl-dev libeigen3-dev"
+}
